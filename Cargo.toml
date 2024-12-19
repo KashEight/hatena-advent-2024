@@ -1,0 +1,9 @@
+[package]
+name = "hatena-advent-2024"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ab_glyph = "0.2.29"
+image = "0.25.5"
+imageproc = { git = "https://github.com/image-rs/imageproc", rev = "18671eea4498e3fb4ec9a652cbabf07671c48b44" }
