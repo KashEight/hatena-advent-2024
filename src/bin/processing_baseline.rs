@@ -10,7 +10,7 @@ const HEIGHT: u32 = 300; // 画像の高さ
 const OUTPUT_DIR: &str = "output/"; // 画像の保存先
 const FONT_SIZE: f32 = 64.0 * 72.0 / 96.0; // フォントサイズ (96dpi -> 72dpi に変換)
 const TEXT: &str = "Hoge"; // テキスト
-const BASELINE_Y_POS: f32 = 200.0; // 仮の値
+const BASELINE_Y_POS: f32 = 200.0; // y = 200 の位置にベースラインがある想定
 
 fn main() {
     // 1. 300 x 300 の黒背景を作成
